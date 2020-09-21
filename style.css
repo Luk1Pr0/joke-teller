@@ -47,7 +47,7 @@ button:active {
 
 button:disabled {
   cursor: default;
-  filter: 30%
+  filter: 10%;
 }
 
 /* Media query for mobile devices */
@@ -58,5 +58,6 @@ button:disabled {
   }
   button {
     box-shadow: 0 0 3vh 2vh rgba(0, 0, 0, 0.4);
+    width: 65vw;
   }
 }
