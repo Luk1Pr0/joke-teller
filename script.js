@@ -12,7 +12,7 @@ function toggleButton() {
 // Pass the joke to VoiceRSS API
 function tellMe(joke) {
     VoiceRSS.speech({
-        key: '',
+        key: 'f9fcda4c54064b7c9708b3c18837bcb4',
         src: joke,
         hl: 'en-us',
         v: 'Linda',
@@ -20,7 +20,7 @@ function tellMe(joke) {
         c: 'mp3',
         f: '44khz_16bit_stereo',
         ssml: false
-    })
+    });
 };
 
 // Get jokes from API
